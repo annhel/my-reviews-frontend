@@ -1,0 +1,163 @@
+
+
+.content-container p:first-of-type {
+  text-align: center;
+}
+
+.content-container p:last-of-type {
+  margin-left: auto;
+}
+
+#button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+/*  */
+#update-header-container{
+    background-color: #305295;
+    text-align: center;
+    padding-top: 2%;
+    height:7rem;
+}
+
+#updateReview-title{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+#review-details-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  }
+
+  #review-img-div{
+    flex: 1;
+    position: relative;
+  }
+
+  #review-img {
+    width: 340px;
+    height: 490px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 10px solid #D9D9D9;
+    align-self: flex-start;
+  }
+
+  #review-details-div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #details-name-rating{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #D9D9D9;
+    padding: 10px 150px;
+    white-space: nowrap;
+  }
+  #details-rating{
+    margin-left: 40px;
+  }
+
+  #update-form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+
+  #update-form input {
+    padding: 1%;
+  }
+
+  #update-form-title{
+    width: 300px;
+    text-align: center;
+  }
+  #update-form-rating{
+    width: 50px;
+    text-align: center;
+  }
+  #update-form-textarea{
+    width: 600px;
+    height: 300px;
+    font-size: 16px;
+    margin: auto;
+  }
+
+  #update-form-imglink{
+    width: 565px;
+    margin: auto;
+  }
+
+  #update-del-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #del-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #d61d05;
+    color: #ffffff;
+    border: transparent;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: 2%;
+  }
+
+  #del-btn:hover{
+    background-color: #9b1200 ;
+  }
+
+  #update-btn {
+    padding: 10px 20px;
+    background-color: #ECC40C;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: auto;
+    width: 200px;
+  }
+
+  #update-btn:hover{
+    background-color: #ffdc3f; 
+}
+
+#update-form-container{
+    background-color: #305295;
+    text-align: center;
+    padding: 10px;
+}
+
+#update-form-container h2{
+  color: white;
+  font-size: 30px;
+}
+
+#render-update-form-btn{
+  align-self: flex-end;
+
+}
+
+
+

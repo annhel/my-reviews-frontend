@@ -1,0 +1,64 @@
+#newreview-container{
+    background-color: #305295;
+    text-align: center;
+    padding-top: 2%;
+    height:7rem;
+}
+#newReview-title{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+#newReviewForm-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: fit-content;
+    padding-top: 2%;
+}
+
+#newReviewForm-container input {
+    padding: 2%;
+    font-size: 18px;
+}
+
+#showtitle-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#showdesc-input{
+    height:400px;
+    width: 500px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#ratinginput{
+   width: 50px;
+}
+
+#submitbtndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submitReviewbtn {
+    padding: 10px 20px;
+    background-color: #777777;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 5%;
+    white-space: nowrap; 
+  }
+#submitReviewbtn:hover{
+    background-color: #ECC40C; 
+}

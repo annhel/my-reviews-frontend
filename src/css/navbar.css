@@ -1,0 +1,23 @@
+.navbtn {
+    padding: 10px 20px;
+    background-color: #777777;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 2%;
+    white-space: nowrap; 
+  }
+.navbtn:hover{
+    background-color: #ECC40C; 
+}
+
+#navbar-div{
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
